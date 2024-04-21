@@ -26,6 +26,7 @@ packaging = "==24.0"
 sqlalchemy = "==2.0.29"
 typing-extensions = "==4.11.0"
 werkzeug = "==3.0.2"
+gunicorn = "*"
 
 [dev-packages]
 
