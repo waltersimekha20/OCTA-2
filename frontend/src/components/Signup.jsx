@@ -37,12 +37,14 @@ export default function SignUp() {
           name="username"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
+          placeholder="username"
         />
         <input
           type="text"
           name="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          placeholder="email"
         />
 
         <select value={role} onChange={(e) => setRole(e.target.value)}>
@@ -55,9 +57,10 @@ export default function SignUp() {
           name="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          placeholder="password"
         />
         <button type="submit" className="signupbutton">
-          Sign U
+          Sign Up
         </button>
       </form>
     </div>
