@@ -73,11 +73,11 @@ function AppointmentForm() {
   };
 
   if (loading) {
-    return <h4>Loading...</h4>;
+    return <h4></h4>;
   }
 
   return (
-    <div>
+    <div>Loading.....
       <Container className="mb-5">
         <h3 className="text-center mt-3 mb-4">Book Appointment</h3>
         <Form onSubmit={handleSubmit}>
