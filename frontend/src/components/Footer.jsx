@@ -17,7 +17,7 @@ const linkStyles = {
 };
 
 const activeLinkStyles = {
-  background: "#007bff",
+  background: "#1e90ff",
 };
 function Footer() {
   return (
